@@ -1,5 +1,6 @@
 
-alert("Javascript подключен");
+alert('Javascript is working')
+
 <script src="http://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>;
 function myMap() {
 	var mapCanvas = document.getElementById("map");
