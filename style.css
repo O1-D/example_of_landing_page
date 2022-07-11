@@ -158,17 +158,21 @@ body{
 	display: flex;
 	padding-bottom: 150px;
 }
-.products p{
+/* .products p{
 	font-size: 39px;
 	padding-top: 50%;
 	padding-bottom: 60%;
 	color: aliceblue;
 	
-}
-.itemOne{
+} */
+.item {
+	position: relative;
 	width: 20%;
-	height: auto;
-	background-color: #968fac98;
+	height: 500px;
+.itemOne{
+	background-image: url("./img/1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 	margin-right: 10px;
 	margin-left: 10%;
 }
@@ -178,9 +182,9 @@ body{
 	box-shadow: 10px 5px 5px rgb(102, 107, 117);
 }
 .itemTwo{
-	width: 20%;
-	height: auto;
-	background-color: #968fac98;
+	background-image: url("./img/2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 	margin-right: 10px;
 }
 .itemTwo:hover{
@@ -189,9 +193,9 @@ body{
 	box-shadow: 10px 5px 5px rgb(102, 107, 117);
 }
 .itemThree{
-	width: 20%;
-	height: auto;
-	background-color: #968fac98;
+	background-image: url("./img/3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 	margin-right: 10px;
 }
 .itemThree:hover{
@@ -200,9 +204,9 @@ body{
 	box-shadow: 10px 5px 5px rgb(102, 107, 117);
 }
 .itemFour{
-	width: 20%;
-	height: auto;
-	background-color: #968fac98;
+	background-image: url("./img/3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .itemFour:hover{
 	cursor: pointer;
@@ -214,7 +218,8 @@ body{
 	background-color: #b3abc2;
 	border: none;
 	cursor: pointer;
-	margin-bottom: 50px;
+	display: block;
+	margin: 0 auto 80% auto;
 	border-radius: 15px;
 
 }
