@@ -157,13 +157,7 @@ body{
 	display: flex;
 	padding-bottom: 150px;
 }
-/* .products p{
-	font-size: 39px;
-	padding-top: 50%;
-	padding-bottom: 60%;
-	color: aliceblue;
-	
-} */
+
 .item {
 	position: relative;
 	width: 20%;
