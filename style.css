@@ -208,6 +208,9 @@ body{
 	box-shadow: 10px 5px 5px rgb(102, 107, 117);
 }
 .itemFour{
+	background-image: url("./img/4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 	background-color: #968fac98;
 }
 .itemFour:hover{
